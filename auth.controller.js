@@ -59,18 +59,4 @@ export const logout = (req,res)=>{
 };
 
 
-    } catch (error) {
-        console.log("Error in signup controller", error.message);
-        res.status(500).json({message: "Internal Server Error"});
-
-        
-    }
-};
-
-export const login = (req,res)=>{
-    res.send("login route");
-};
-
-export const logout = (req,res)=>{
-    res.send("logout route");
-};
+   
